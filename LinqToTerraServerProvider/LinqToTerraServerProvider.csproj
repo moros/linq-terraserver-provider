@@ -44,11 +44,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Evaluator.cs" />
+    <Compile Include="ExpressionTreeHelpers.cs" />
+    <Compile Include="ExpressionTreeModifier.cs" />
+    <Compile Include="InnermostWhereExpressionVisitor.cs" />
+    <Compile Include="InvalidQueryException.cs" />
+    <Compile Include="LocationVisitor.cs" />
     <Compile Include="Place.cs" />
     <Compile Include="PlaceFact.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="QueryableTerraServerData.cs" />
+    <Compile Include="TerraServerQueryContext.cs" />
+    <Compile Include="TerraServerQueryProvider.cs" />
     <Compile Include="TerraServiceClient.cs" />
+    <Compile Include="TypeSystem.cs" />
+    <Compile Include="WebServiceHelper.cs" />
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Connected Services\" />
