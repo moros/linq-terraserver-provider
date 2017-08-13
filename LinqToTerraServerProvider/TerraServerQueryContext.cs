@@ -30,7 +30,7 @@ namespace LinqToTerraServerProvider
             var places = WebServiceHelper.GetPlacesFromTerraServer(locations);
 
             // copy the IEnumerable places to an IQueryable.
-            var queryablePlaces = places.AsQueryable<Place>();
+            var queryablePlaces = places.AsQueryable();
 
             // copy the expression tree that was passed in, changing only the first
             // argument of the innermost MethodCallExpression.

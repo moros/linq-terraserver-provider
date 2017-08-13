@@ -19,9 +19,11 @@ namespace LinqToTerraServerProvider
             {
                 var places = serializer.Deserialize<List<PlaceFact>>(reader);
 
-                return places
-                    .Where(place => place.City == location || place.State == location)
+                var array = places
+                    .Where(place => place.Value == location || place.State == location || place.Counties.Contains(location))
                     .ToArray();
+
+                return array;
             }
         }
     }

@@ -1,47 +1,74 @@
 ﻿[
   {
-    "city": "Des Moines",
+    "value": "Des Moines",
+    "counties": [ "Polk" ],
     "state": "IA",
     "placetype_id": 4
   },
   {
-    "city": "Cedar Rapids",
+    "value": "Cedar Rapids",
+    "counties": [ "Linn" ],
     "state": "IA",
     "placetype_id": 4
   },
   {
-    "city": "Davenport",
+    "value": "Davenport",
+    "counties": [ "Scott" ],
     "state": "IA",
     "placetype_id": 4
   },
   {
-    "city": "Sioux City",
+    "value": "Sioux City",
+    "counties": [ "Woodbury" ],
     "state": "IA",
     "placetype_id": 4
   },
   {
-    "city": "Waterloo",
+    "value": "Waterloo",
+    "counties": [ "Black Hawk" ],
     "state": "IA",
     "placetype_id": 4
   },
   {
-    "city": "Iowa City",
+    "value": "Iowa City",
+    "counties": [ "Johnson" ],
     "state": "IA",
     "placetype_id": 4
   },
   {
-    "city": "Council Bluffs",
+    "value": "Council Bluffs",
+    "counties": [ "Pottawattamie" ],
     "state": "IA",
     "placetype_id": 4
   },
   {
-    "city": "Dubuque",
+    "value": "Dubuque",
+    "counties": [ "Dubuque" ],
     "state": "IA",
     "placetype_id": 4
   },
   {
-    "city": "Ames",
+    "value": "Ames",
+    "counties": [ "Story" ],
     "state": "IA",
     "placetype_id": 4
+  },
+  {
+    "value": "Cascade",
+    "counties": ["Dubuque", "Jones"],
+    "state": "IA",
+    "placetype_id": 4
+  },
+  {
+    "value": "Maquoketa",
+    "counties": [ "Jackson" ],
+    "state": "IA",
+    "placetype_id": 4
+  },
+  {
+    "value": "Maquoketa River",
+    "counties": ["Jackson", "Jones", "Delaware", "Buchanan", "Fayette"],
+    "state": "IA",
+    "placetype_id": 12
   }
 ]

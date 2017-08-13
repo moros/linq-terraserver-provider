@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace LinqToTerraServerProvider
 {
@@ -31,7 +32,7 @@ namespace LinqToTerraServerProvider
 
             var places = new Place[placeFacts.Length];
             for (var i = 0; i < placeFacts.Length; i++)
-                places[i] = new Place(placeFacts[i].City, placeFacts[i].State, placeFacts[i].PlaceTypeId);
+                places[i] = new Place(placeFacts[i].Value, placeFacts[i].State, placeFacts[i].PlaceTypeId);
 
             return places;
         }

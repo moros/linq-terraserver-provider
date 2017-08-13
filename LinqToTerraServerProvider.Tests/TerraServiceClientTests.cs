@@ -24,7 +24,7 @@ namespace LinqToTerraServerProvider.Tests
             var client = _fixture.Create<TerraServiceClient>();
             var placeFacts = client.GetPlaceFacts("Dubuque");
             
-            placeFacts.First().City.Should().Be("Dubuque", "because we passed a location that is in the file.");
+            placeFacts.First().Value.Should().Be("Dubuque", "because we passed a location that is in the file.");
         }
     }
 }

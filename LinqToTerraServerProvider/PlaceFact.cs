@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Runtime.Serialization;
 
 namespace LinqToTerraServerProvider
@@ -7,8 +8,11 @@ namespace LinqToTerraServerProvider
     [DataContract]
     public class PlaceFact
     {
-        [DataMember(Name = "city")]
-        public string City { get; set; }
+        [DataMember(Name = "value")]
+        public string Value { get; set; }
+
+        [DataMember(Name = "counties")]
+        public List<string> Counties { get; set; }
 
         [DataMember(Name = "state")]
         public string State { get; set; }
