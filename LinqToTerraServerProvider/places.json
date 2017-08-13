@@ -1,0 +1,47 @@
+﻿[
+  {
+    "city": "Des Moines",
+    "state": "IA",
+    "placetype_id": 4
+  },
+  {
+    "city": "Cedar Rapids",
+    "state": "IA",
+    "placetype_id": 4
+  },
+  {
+    "city": "Davenport",
+    "state": "IA",
+    "placetype_id": 4
+  },
+  {
+    "city": "Sioux City",
+    "state": "IA",
+    "placetype_id": 4
+  },
+  {
+    "city": "Waterloo",
+    "state": "IA",
+    "placetype_id": 4
+  },
+  {
+    "city": "Iowa City",
+    "state": "IA",
+    "placetype_id": 4
+  },
+  {
+    "city": "Council Bluffs",
+    "state": "IA",
+    "placetype_id": 4
+  },
+  {
+    "city": "Dubuque",
+    "state": "IA",
+    "placetype_id": 4
+  },
+  {
+    "city": "Ames",
+    "state": "IA",
+    "placetype_id": 4
+  }
+]
